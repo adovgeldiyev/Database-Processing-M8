@@ -7,8 +7,7 @@ a.	Find all male employees<br>
 
 b.	Find the lowest salary for female employees<br>
 
-c.	Print out salary groups (individual values without applying aggregation) by middle initial<br>
-<br>
+c.	Print out salary groups (individual values without applying aggregation) by middle initial<br><br>
 ### Part 2<br>
 
 Consider the table STUDENT with attributes ID, Name, Midterm, Final, and Homework, and the table WEIGHTS with attributes MidPct, FinPct, and HWPct defined and populated by the following script:<br>
