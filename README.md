@@ -15,7 +15,7 @@ Write an anonymous PL/SQL block that will do the following:<br>
 
 First, report the three weights found in the WEIGHTS table.  (You may assume that the WEIGHTS table contains only one record.)  Next, output the name of each student in the STUDENT table and their overall score, computed as x percent Midterm, y percent Final, and z percent Homework, where x, y, and z are the corresponding percentages found in the WEIGHTS table.  (You may assume that x+y+z=100.)  Also convert each student’s overall score to a letter grade by the rule 90-100=A, 80-89.99=B, 65-79.99=C, 0-64.99=F, and include the letter grade in the output.  Output each student’s information on a separate line. <br> 
 <br>
-###Part 3<br>
+### Part 3<br>
 
 Consider the SECTION and ENROLLMENT tables defined by the following script, which also populates the SECTION table;<br>
 The Students attribute of SECTION should store a count of how many students are enrolled in the section – that is, the number of records in ENROLLMENT with that SectionID – and its value should never exceed five (they are very small sections…).  Your task is to write two triggers that will maintain the value of the Students attribute as changes are made to the ENROLLMENT table.<br>
