@@ -22,8 +22,10 @@ The Students attribute of SECTION should store a count of how many students are 
 
 Write definitions of the following two triggers:<br>
 
-A. Write a trigger that will fire when a user attempts to INSERT a row into ENROLLMENT. This trigger will check the value of SECTION.Students for the corresponding section. If SECTION.Students is less than 5, then there is still room in the section so allow the insert and update SECTION.Students. If SECTION.Students is equal to 5, then the section is full so it will cancel the INSERT and display an error message stating that the section is full.  <br>
+#### A. Write a trigger 
+that will fire when a user attempts to INSERT a row into ENROLLMENT. This trigger will check the value of SECTION.Students for the corresponding section. If SECTION.Students is less than 5, then there is still room in the section so allow the insert and update SECTION.Students. If SECTION.Students is equal to 5, then the section is full so it will cancel the INSERT and display an error message stating that the section is full.  <br>
 You can raise an error using:<br>
 raise_application_error(-20102, '[Place your error message here]');<br>
-B. Write a trigger that will fire when a user attempts to DELETE one or more rows from ENROLLMENT.  This trigger will update the values of SECTION.Students for any affected sections to make sure they are accurate after the rows are deleted, by decreasing the value of SECTION.Students by one each time a student is removed from a section.
+#### B. Write a trigger 
+that will fire when a user attempts to DELETE one or more rows from ENROLLMENT.  This trigger will update the values of SECTION.Students for any affected sections to make sure they are accurate after the rows are deleted, by decreasing the value of SECTION.Students by one each time a student is removed from a section.
 
